@@ -1,0 +1,93 @@
+:root {
+    --theme-color: #21C777;
+    --theme-color-hover: #18a05e;
+}
+
+mark {
+    height: 20px;
+}
+
+h4 {
+    font-weight: 500;
+    line-height: 1.5;
+}
+h5 {
+    font-weight: 500;
+}
+h6 {
+    font-weight: 500;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+} a:hover {
+    color: var(--theme-color-hover);
+    text-decoration: none;
+}
+
+/* ---------------------------------------- Button ---------------------------------------- */
+.button-1 {
+    font-size: 16px;
+    background-color: var(--theme-color);
+    color: #ffffff;
+    border: none; 
+    border-radius: 6px;
+    padding: 10px 42px;
+} .button-1:hover {
+    background-color: var(--theme-color-hover);
+}
+
+.button-2 {
+    font-size: 16px;
+    background-color: var(--theme-color);
+    color: #ffffff;
+    border: none; 
+    border-radius: 6px;
+    padding: 12px 32px;
+} .button-2:hover {
+    background-color: var(--theme-color-hover);
+}
+
+.button-3 {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #292929;
+    border: 3px solid var(--theme-color); 
+    border-radius: 100px;
+    padding: 7px 24px 8px 24px;
+} .button-3:hover {
+    color: #ffffff;
+    background-color: var(--theme-color);
+}
+
+.shadow {
+    box-shadow: 0px 0px 50px 4px #00000015;
+} .shadow:hover {
+    box-shadow: 0px 0px 50px 4px #00000030;
+}
+
+.footer-link {
+    font-size: 14px;
+    padding-top: 10px;
+} @media screen and (max-width: 768px) {
+    .footer-link {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------- */
+.obj1 {
+    z-index: -1;
+    position: fixed;
+    top: 25%;
+    right: -100%;
+    width: 100%;
+    font-size: 200px;
+    font-weight: 700;
+    padding-left: 50px;
+    color: #ffffff2a;
+  }
+  
